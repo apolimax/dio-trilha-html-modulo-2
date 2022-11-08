@@ -3,14 +3,18 @@
 }
 
 .content {
-  width: 100%;
+  width: 96%;
+}
+
+.content_info {
   display: flex;
-  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .content form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .content form div:not(:last-child) {
