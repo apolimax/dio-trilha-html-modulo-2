@@ -1,0 +1,29 @@
+.header {
+  background-image: url("../assets/banner_contato.jpg");
+}
+
+.content {
+  width: 100%;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.content form div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content form label {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
